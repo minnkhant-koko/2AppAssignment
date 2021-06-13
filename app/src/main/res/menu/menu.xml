@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_reshuffle"
+        android:icon="@drawable/ic_baseline_shuffle_24"
+        android:title="@string/menu_shuffle"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_resort"
+        android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+        android:title="@string/menu_sort"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/menu_add"
+        app:showAsAction="always"/>
+</menu>
